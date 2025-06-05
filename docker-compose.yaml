@@ -8,8 +8,3 @@ services:
       dockerfile: Dockerfile
     ports:
       - "8001:8001"
-    volumes:
-      - ./data:/app/data
-      - ./media:/app/media
-      - ./config:/app/config
-      - ./db.sqlite3:/app/db.sqlite3
