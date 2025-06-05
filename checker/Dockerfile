@@ -14,4 +14,4 @@ ENV DJANGO_SETTINGS_MODULE=checker.settings
 # Create necessary directories
 RUN mkdir -p /app/data /app/media /app/config
 # Run the Django development server
-CMD ["sh", "-c", "python ./checker/manage.py migrate && python manage.py runserver 0.0.0.0:8001"]
+CMD ["sh", "-c", "python manage.py migrate && python manage.py runserver 0.0.0.0:8001"]
