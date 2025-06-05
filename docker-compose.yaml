@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  alekhin:
-    image: alekhin:latest
-    container_name: alekhin
+  checker:
+    image: checker:latest
+    container_name: checker
     build:
       context: .
       dockerfile: Dockerfile
