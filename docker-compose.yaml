@@ -4,7 +4,7 @@ services:
     image: checker:latest
     container_name: checker
     build:
-      context: .
+      context: ./checker
       dockerfile: Dockerfile
     ports:
       - "8001:8001"
